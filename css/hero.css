@@ -53,6 +53,15 @@
         width: 90%;
         margin: 0 5% 20px;
     }
+        .hero .form > input {
+            background-color: transparent;
+            color: #fff;
+            border-bottom-color: #fff;
+            outline: none
+        }
+        .hero .form > input::placeholder {
+            color: #fff;
+        }
     .hero .mouse {
         width: 160px;
         height: 260px;

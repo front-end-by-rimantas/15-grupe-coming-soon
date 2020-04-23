@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coming soon</title>
+    <!-- reset -->
     <link rel="stylesheet" href="./css/reset.css">
+    <!-- 3rd party -->
     <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <!-- your atomic elements -->
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/progress-bar.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <!-- layout -->
     <link rel="stylesheet" href="./css/layout.css">
+    <!-- structure -->
     <link rel="stylesheet" href="./css/hero.css">
     <link rel="stylesheet" href="./css/content.css">
-    <link rel="stylesheet" href="./css/progress-bar.css">
     <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
@@ -36,9 +43,10 @@
                     <div class="label">seconds</div>
                 </div>
             </div>
-            <div class="form">
-                SUBSCRIBE FORM
-            </div>
+            <form class="form">
+                <input type="email" placeholder="Type your email">
+                <div class="btn btn-red">Subscribe now</div>
+            </form>
             <div class="mouse">
                 <div class="wheel"></div>
             </div>
@@ -97,9 +105,12 @@
             <div class="right">
                 <h2>Have any question?</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit <a href="mailto:myemail@email.com">myemail@email.com</a> molestiae itaque illo aut sit recusandae, dolore, consequuntur numquam molestias iure fuga! Sed eos expedita mollitia ratione illo tempore, dolores rem.</p>
-                <div class="form">
-                    MESSAGE FORM
-                </div>
+                <form class="form">
+                    <input class="half" type="text" placeholder="Name">
+                    <input class="half" type="email" placeholder="Email">
+                    <textarea placeholder="Message"></textarea>
+                    <div class="btn btn-red">Send message</div>
+                </form>
             </div>
         </div>
     </main>
@@ -112,6 +123,8 @@
             <a href="#" class="fa fa-linkedin"></a>
             <a href="#" class="fa fa-instagram"></a>
             <a href="#" class="fa fa-rss"></a>
+            <!-- back to top -->
+            <a href="#" class="btn btn-circle btn-red back-to-top fa fa-angle-up"></a>
         </div>
         <div class="row">
             <img class="footer-logo" src="./img/footer-logo.png" alt="Footer logo">
